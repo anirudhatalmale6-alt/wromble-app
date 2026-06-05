@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Wromble",
+    "slug": "wromble",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#E20E1D"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "dk.wromble.app",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Wromble bruger din lokation til at vise leveringsruter og beregne afstand.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "Wromble bruger din lokation til GPS tracking under levering.",
+        "NSCameraUsageDescription": "Wromble bruger kameraet til at tage billeder af produkter."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#E20E1D"
+      },
+      "package": "dk.wromble.app"
+    },
+    "plugins": [
+      "expo-splash-screen"
+    ]
+  }
+}
